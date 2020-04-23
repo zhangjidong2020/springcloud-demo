@@ -11,6 +11,7 @@
     <modules>
         <module>user-service</module>
         <module>customer-demo</module>
+        <module>eureka-server</module>
     </modules>
 
 
@@ -66,6 +67,7 @@
                 <version>1.18.12</version>
 
             </dependency>
+
 
         </dependencies>
     </dependencyManagement>
