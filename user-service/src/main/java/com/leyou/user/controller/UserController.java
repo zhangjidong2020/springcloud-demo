@@ -15,6 +15,11 @@ public class UserController {
 
     @GetMapping("/{id}")
     public User queryUserById(@PathVariable("id") Integer userId){
+//        try {
+//            Thread.sleep(6000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         User user=userService.queryUserById(userId);
         return user;
 
