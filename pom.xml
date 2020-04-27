@@ -12,6 +12,7 @@
         <module>user-service</module>
         <module>customer-demo</module>
         <module>eureka-server</module>
+        <module>zuul-demo</module>
     </modules>
 
 
